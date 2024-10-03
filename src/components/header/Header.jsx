@@ -6,7 +6,7 @@ import HeaderSocials from "./HeaderSocials";
 import { RiScrollToBottomFill } from "react-icons/ri";
 const Header = () => {
   return (
-    <header>
+    <header id="home">
       <div className="container header__container">
         <h5>Assalamualaikum, I'm</h5>
         <h1>Shahadath Alam</h1>
