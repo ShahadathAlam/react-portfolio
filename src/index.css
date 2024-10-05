@@ -60,7 +60,8 @@ h1 {
 
 section {
   margin-top: 8rem;
-  height: 100vh;
+  margin-bottom: 8rem;
+  height: auto;
 }
 
 section > h2,
@@ -120,10 +121,15 @@ img {
   .container {
     width: var(--container-width-md);
   }
-  section {
+  /* section {
     margin-top: 6rem;
     height: 100vh;
-  }
+  } */
+
+  /* section {
+    min-height: auto;
+    margin-bottom: 10rem;
+  } */
 }
 
 /* ================ MEDIA QUERIES (SMALL DEVICES)============== */
@@ -133,9 +139,9 @@ img {
     width: var(--container-width-sm);
   }
 
-  section {
+  /* section {
     height: auto;
-  }
+  } */
   section > h2 {
     margin-bottom: 2rem;
   }
