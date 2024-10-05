@@ -6,6 +6,8 @@ import { MdOutlineWork } from "react-icons/md";
 
 import { RiServiceLine } from "react-icons/ri";
 import { RiMessengerLine } from "react-icons/ri";
+
+import { GoProject } from "react-icons/go";
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#home");
   return (
@@ -37,6 +39,14 @@ const Nav = () => {
         className={activeNav === "#services" ? "active" : ""}
       >
         <RiServiceLine />
+      </a>
+
+      <a
+        href="#portfolio"
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
+      >
+        <GoProject />
       </a>
       <a
         href="#contact"
