@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import { FaAward } from "react-icons/fa6";
-import { FiUsers } from "react-icons/fi";
+// import { FiUsers } from "react-icons/fi";
 import { GoProject } from "react-icons/go";
 import ME from "../../assets/me-about.JPG";
 const About = () => {
@@ -25,11 +25,11 @@ const About = () => {
               <small>1+ Years Working</small>
             </article>
 
-            <article className="about__card">
+            {/* <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
               <small>200+ Worldwide</small>
-            </article>
+            </article> */}
 
             <article className="about__card">
               <GoProject className="about__icon" />
