@@ -6,7 +6,7 @@ import { FaFacebook } from "react-icons/fa6";
 import IMG from "../../assets/logo.png";
 const Footer = () => {
   return (
-    <footer>
+    <footer id="footer">
       <a href="#home" className="footer__logo">
         <img src={IMG} alt="logo" className="footer__logo-image" />
       </a>
