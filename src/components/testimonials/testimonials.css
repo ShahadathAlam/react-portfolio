@@ -28,7 +28,7 @@
   margin: 0.8rem auto 0;
 }
 
-.swiper-pagination-bullet.swiper-pagination-bullet-active {
+.swiper-pagination-clickable .swiper-pagination-bullet {
   background: var(--color-primary);
 }
 
